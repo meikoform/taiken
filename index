@@ -1,0 +1,63 @@
+<html>
+<body>
+
+<form method="POST" action="https://home1.tigers-net.com/cgi-bin/mailsend.cgi">
+<input type="HIDDEN" name="to" value="meikoabekawa@gmail.com">
+<input type="HIDDEN" name="subject" value="問い合わせ回答">
+<input type="HIDDEN" name="address" value="https://sites.google.com/view/hello-meiko-thanks">
+<b>明光義塾　体験授業・教室見学申込フォーム</b><BR><br>
+お問い合わせありがとうございます。<br>
+下記にお答えいただき、送信ボタンを押してください。<br>
+<hr>
+お子様のお名前　<input type="TEXT" name="氏名"> <br><br>
+お電話番号　　　<input type="TEXT" name="電話"> <br><br>
+お子様の学年　　<select name="grade">
+　　<option value="小１～小３">小学１～３年生</option>
+　　<option value="小４">小学４年生</option>
+　　<option value="小５">小学５年生</option>
+　　<option value="小６">小学６年生</option>
+　　<option value="中１">中学１年生</option>
+　　<option value="中２">中学２年生</option>
+　　<option value="中３">中学３年生</option>
+　　<option value="高校生">高校生</option>
+　　<option value="既卒">既卒生</option>
+</select>
+<br><br>
+学校名　<input type="TEXT" name="学校名"> <br><br>
+
+<b>体験授業のご希望</b><br>
+<font color="blue">
+　<b>ご注意</b><br>
+　　・可能でしたら体験授業の30分前にお越し下さい。<br>
+　　・日曜日は休塾日となります。ご了承下さい。<br>
+　　・満席等の場合、必ずしもご希望に添えない場合がございます。</font><br><br>
+
+<b>【授業科目】</b><br>
+　体験授業でご希望の科目をお選び下さい。<br>
+　<input type="RADIO" name="科目" value="数学">数学・算数　　
+<input type="RADIO" name="科目" value="英語">英語　　
+<input type="RADIO" name="科目" value="国語">国語　　
+<input type="RADIO" name="科目" value="他">その他<input type="TEXT" name="subject"><br><br><br>
+
+<b>【体験授業日程】</b><br>
+　①第一希望　　<select name="month"><option value="未選択">▽選択</option><option value="2月">2月</option><option value="3月">3月</option></select>
+　<select name="day"><option value="未選択">▽選択</option><option value="1日">1日</option><option value="2日">2日</option><option value="3日">3日</option><option value="4日">4日</option><option value="5日">5日</option><option value="6日">6日</option><option value="7日">7日</option><option value="8日">8日</option><option value="9日">9日</option><option value="10日">10日</option><option value="11日">11日</option><option value="12日">12日</option><option value="13日">13日</option><option value="14日">14日</option><option value="15日">15日</option><option value="16日">16日</option><option value="1日">17日</option><option value="18日">18日</option><option value="19日">19日</option><option value="20日">20日</option><option value="21日">21日</option><option value="22日">22日</option><option value="23日">23日</option><option value="24日">24日</option><option value="25日">25日</option><option value="26日">26日</option><option value="27日">27日</option><option value="28日">28日</option><option value="29日">29日</option><option value="30日">30日</option><option value="31日">31日</option></select>
+　　時間帯：<select name="time"><option value="希望なし">時間指定なし</option><option value="Bコマ">16時50分～18時20分</option><option value="Cコマ">18時25分～19時55分</option><option value="Dコマ">20時00分～21時30分</option><option value="Sコマ">13時40分～15時10分【土曜】</option><option value="Aコマ">15時15分～16時45分【土曜】</option></select><br><BR>
+
+　②第二希望　　<select name="month"><option value="未選択">▽選択</option><option value="2月">2月</option><option value="3月">3月</option></select>
+　<select name="day"><option value="未選択">▽選択</option><option value="1日">1日</option><option value="2日">2日</option><option value="3日">3日</option><option value="4日">4日</option><option value="5日">5日</option><option value="6日">6日</option><option value="7日">7日</option><option value="8日">8日</option><option value="9日">9日</option><option value="10日">10日</option><option value="11日">11日</option><option value="12日">12日</option><option value="13日">13日</option><option value="14日">14日</option><option value="15日">15日</option><option value="16日">16日</option><option value="1日">17日</option><option value="18日">18日</option><option value="19日">19日</option><option value="20日">20日</option><option value="21日">21日</option><option value="22日">22日</option><option value="23日">23日</option><option value="24日">24日</option><option value="25日">25日</option><option value="26日">26日</option><option value="27日">27日</option><option value="28日">28日</option><option value="29日">29日</option><option value="30日">30日</option><option value="31日">31日</option></select>
+　　時間帯：<select name="time"><option value="希望なし">時間指定なし</option><option value="Bコマ">16時50分～18時20分</option><option value="Cコマ">18時25分～19時55分</option><option value="Dコマ">20時00分～21時30分</option><option value="Sコマ">13時40分～15時10分【土曜】</option><option value="Aコマ">15時15分～16時45分【土曜】</option></select><br><BR>
+
+　③第三希望　　<select name="month"><option value="未選択">▽選択</option><option value="2月">2月</option><option value="3月">3月</option></select>
+　<select name="day"><option value="未選択">▽選択</option><option value="1日">1日</option><option value="2日">2日</option><option value="3日">3日</option><option value="4日">4日</option><option value="5日">5日</option><option value="6日">6日</option><option value="7日">7日</option><option value="8日">8日</option><option value="9日">9日</option><option value="10日">10日</option><option value="11日">11日</option><option value="12日">12日</option><option value="13日">13日</option><option value="14日">14日</option><option value="15日">15日</option><option value="16日">16日</option><option value="1日">17日</option><option value="18日">18日</option><option value="19日">19日</option><option value="20日">20日</option><option value="21日">21日</option><option value="22日">22日</option><option value="23日">23日</option><option value="24日">24日</option><option value="25日">25日</option><option value="26日">26日</option><option value="27日">27日</option><option value="28日">28日</option><option value="29日">29日</option><option value="30日">30日</option><option value="31日">31日</option></select>
+　　時間帯：<select name="time"><option value="希望なし">時間指定なし</option><option value="Bコマ">16時50分～18時20分</option><option value="Cコマ">18時25分～19時55分</option><option value="Dコマ">20時00分～21時30分</option><option value="Sコマ">13時40分～15時10分【土曜】</option><option value="Aコマ">15時15分～16時45分【土曜】</option></select><br><BR>
+
+
+ご回答ありがとうございました。<br>
+下記の送信ボタンを押してください。<br>
+
+<input type="submit" value="送信">
+</form>
+
+</body>
+</html>
